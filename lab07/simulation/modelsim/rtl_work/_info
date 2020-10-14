@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim
+vram1
+Z1 !s110 1540982527
+!i10b 1
+!s100 9=Zm>HEhi?7Fzzj]AX;SI1
+IE3KEo2VG1nF>V:V^AzHHA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1540746440
+8D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram1.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab07/ram1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1540982527.000000
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07|D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07}
+Z7 tCvgOpt 0
+vram2_port
+R1
+!i10b 1
+!s100 Y;`i17<O=bb9LmAFzNAQe0
+IoK:bEV6GR9ZP=HiE[TE_23
+R2
+R0
+w1540743523
+8D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram2_port.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab07/ram2_port.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1540982526.000000
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram2_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07|D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram2_port.v|
+!i113 1
+R5
+R6
+R7
+vram_top
+R1
+!i10b 1
+!s100 nl4bO195<MW@X7jNWnA0`1
+IeIoD^OPGmdZNOUCo]K[Ef2
+R2
+R0
+w1540772739
+8D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram_top.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab07/ram_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07|D:/NJU/3rd semester/digital logical circuit experiments/lab07/ram_top.v|
+!i113 1
+R5
+R6
+R7
+vram_top_vlg_tst
+R1
+!i10b 1
+!s100 z^8R3Vi<oboBP44HMHLUd1
+IT^<kkE2;8a9?Vh;7AT2el2
+R2
+R0
+w1540772450
+8D:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim/ram_top.vt
+FD:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim/ram_top.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim/ram_top.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim|D:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim/ram_top.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab07/simulation/modelsim}
+R7

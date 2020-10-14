@@ -1,0 +1,33 @@
+module button(
+clk,
+sw,
+f
+);
+input clk;
+input[7:0]sw;
+output [15:0]f;
+wire soundnum;
+assign soundnum=sw[7]+sw[6]+sw[5]+sw[4]+sw[3]+sw[2]+sw[1]+sw[0];
+always@(posedge clk)
+begin
+f=0;
+if(sw[7]==1)
+f=f+16'd714;
+if(sw[6]==1)
+f=f+16'd802;
+if(sw[5]==1)
+f=f+16'd*900;
+if(sw[4]==1)
+f=f+16'd953;
+if(sw[3]==1)
+f=f+16'd1070;
+if(sw[2]==1)
+f=f+16'd1201;
+if(sw[1]==1)
+f=f+16'd1348;
+if(sw[0]==1)
+f=f+16'd1428;
+if(soundnum!=1)
+f=f/soundnum;
+end
+

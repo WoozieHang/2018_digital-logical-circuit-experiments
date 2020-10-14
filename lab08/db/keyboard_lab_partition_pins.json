@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "countnum1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "countnum2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "assicnum2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "buttonnum2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ps2_data",
+					"strict" : false
+				},
+				{
+					"name" : "ps2_clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

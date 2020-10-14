@@ -1,0 +1,52 @@
+module lab05(clk,clk_1s,count_clk,start,clr,a,b,light);
+input clk;
+output reg clk_1s;
+reg [24:0]count_clk;
+input start;
+input clr;
+output reg [3:0]a;//BCD 
+output reg [3:0]b;
+output reg light;
+
+initial
+begin
+clk_1s=0;
+count_clk=0;
+a=0;
+b=0;
+end
+
+always @(posedge clk)
+if(count_clk==25000000)
+begin
+count_clk <=0;
+clk_1s <= ~clk_1s;
+end
+else
+count_clk <= count_clk+1;
+
+always@(posedge clk_1s)
+if(b==9&&a==9)
+begin
+b<=0;
+a<=0;
+light<=1;
+end
+
+else if(b==9)
+begin
+b<=0;
+a<=a+1;
+end
+
+else if(b==0&&a==0)
+begin
+b<=b+1;
+light=0;
+end
+
+else
+b<=b+1;
+
+endmodule
+

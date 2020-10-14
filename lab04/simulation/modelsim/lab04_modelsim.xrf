@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/NJU/3rd semester/digital logical circuit experiments/lab04/lab04.v
+source_file = 1, D:/NJU/3rd semester/digital logical circuit experiments/lab04/db/lab04.cbx.xml
+design_name = lab04
+instance = comp, \out_lock1~output , out_lock1~output, lab04, 1
+instance = comp, \out_lock2~output , out_lock2~output, lab04, 1
+instance = comp, \clk~input , clk~input, lab04, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, lab04, 1
+instance = comp, \in_data~input , in_data~input, lab04, 1
+instance = comp, \out_lock1~reg0feeder , out_lock1~reg0feeder, lab04, 1
+instance = comp, \en~input , en~input, lab04, 1
+instance = comp, \out_lock1~reg0 , out_lock1~reg0, lab04, 1
+instance = comp, \out_lock2~reg0feeder , out_lock2~reg0feeder, lab04, 1
+instance = comp, \out_lock2~reg0 , out_lock2~reg0, lab04, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, lab04, 1

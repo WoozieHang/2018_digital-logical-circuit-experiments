@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at final_lab.v(16): object "LEDR" differs only in case from object "ledr" in the same scope File: D:/NJU/3rd semester/digital logical circuit experiments/lab12/final_lab.v Line: 16
+Warning (10268): Verilog HDL information at get_music.v(70): always construct contains both blocking and non-blocking assignments File: D:/NJU/3rd semester/digital logical circuit experiments/lab12/get_music.v Line: 70

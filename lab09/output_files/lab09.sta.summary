@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -6.271
+TNS   : -22950.303
+
+Type  : Slow 1100mV 85C Model Setup 'clkgen:my_vgaclk|clkout'
+Slack : -3.210
+TNS   : -86.421
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clkgen:my_vgaclk|clkout'
+Slack : 1.062
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -23817.931
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clkgen:my_vgaclk|clkout'
+Slack : -0.502
+TNS   : -26.692
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -6.554
+TNS   : -19904.854
+
+Type  : Slow 1100mV 0C Model Setup 'clkgen:my_vgaclk|clkout'
+Slack : -3.047
+TNS   : -84.749
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -0.041
+TNS   : -0.144
+
+Type  : Slow 1100mV 0C Model Hold 'clkgen:my_vgaclk|clkout'
+Slack : 0.988
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -23766.520
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clkgen:my_vgaclk|clkout'
+Slack : -0.513
+TNS   : -26.961
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.191
+TNS   : -13068.474
+
+Type  : Fast 1100mV 85C Model Setup 'clkgen:my_vgaclk|clkout'
+Slack : -1.687
+TNS   : -43.066
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clkgen:my_vgaclk|clkout'
+Slack : 0.573
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -23709.954
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clkgen:my_vgaclk|clkout'
+Slack : -0.212
+TNS   : -5.661
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.992
+TNS   : -9370.052
+
+Type  : Fast 1100mV 0C Model Setup 'clkgen:my_vgaclk|clkout'
+Slack : -1.444
+TNS   : -37.902
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.248
+TNS   : -82.477
+
+Type  : Fast 1100mV 0C Model Hold 'clkgen:my_vgaclk|clkout'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -23723.069
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clkgen:my_vgaclk|clkout'
+Slack : -0.164
+TNS   : -4.428
+
+------------------------------------------------------------

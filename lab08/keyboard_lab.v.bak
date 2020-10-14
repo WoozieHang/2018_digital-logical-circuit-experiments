@@ -1,0 +1,63 @@
+module keyboard_lab(countnum,assicnum,buttonnum,clk,ps2_clk,ps2_data,nextdata_n);
+input clk,ps2_clk,ps2_data;
+input nextdata_n;
+reg[7:0]count;
+reg [7:0]assic;
+reg [7:0]buttonword;
+output [6:0]countnum;
+output [6:0]assicnum;
+output [6:0]buttonnum;
+reg ready;
+reg overflow;
+
+initial
+begin
+count=0;
+end
+
+seven_num seven_num1(
+.clk(clk),
+.dout(count),
+.num(countnum)
+);
+
+seven_num seven_num2(
+.clk(clk),
+.dout(assic),
+.num(asscinum)
+);
+
+seven_num seven_num3(
+.clk(clk),
+.dout(buttonword),
+.num(buttonnum)
+);
+
+button_to_assic b_to_a(
+.clk(clk),
+.buttonword(buttonword),
+.assic(assic)
+);
+
+
+ps2_keyboard ps2keyboard(
+.clk(clk),
+.clrn(1'b1),
+.ps2_clk(ps2_clk),
+.ps2_data(ps2_data),
+.data(buttonword),
+.ready(ready),
+.nextdata_n(nextdata_n),
+.overflow(overflow)
+);
+
+
+always@(negedge ready)
+begin
+count=count+1;
+nextdata_n=0;
+end
+
+endmodule
+
+

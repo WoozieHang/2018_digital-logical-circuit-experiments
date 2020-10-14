@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NJU/3rd semester/digital logical circuit experiments/lab08/simulation/modelsim
+vbutton_to_assic
+Z1 !s110 1541384156
+!i10b 1
+!s100 BXRBP3NkL^[oz<ilTKKX53
+II^of4;loHlN1cf8`6kNz>0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1541243421
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/button_to_assic.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/button_to_assic.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1541384156.000000
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/button_to_assic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/button_to_assic.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08}
+Z7 tCvgOpt 0
+vkeyboad_sim
+R1
+!i10b 1
+!s100 RzXBO0CbGEM_o8ahbIf:f2
+I<Ef:D2K]0F79@g7boGi8L1
+R2
+R0
+w1541384083
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_sim.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_sim.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_sim.v|
+!i113 1
+R5
+R6
+R7
+vkeyboard_lab
+R1
+!i10b 1
+!s100 7>X=3T2odme=67kl8e@l43
+ICc3K1>A59jKc2KiFinKV13
+R2
+R0
+w1541264373
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_lab.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_lab.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_lab.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/keyboard_lab.v|
+!i113 1
+R5
+R6
+R7
+vps2_keyboard
+R1
+!i10b 1
+!s100 gNfWe[i]QR^I0Vk6HJ>z_0
+I5=T0CVAhYWA]fl?jgIL4I1
+R2
+R0
+w1541241754
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard.v|
+!i113 1
+R5
+R6
+R7
+vps2_keyboard_model
+R1
+!i10b 1
+!s100 RA>nJnF>gU>^LHEXZeDiL2
+I[nzA3>Z8F69Cjl^]=TY_B3
+R2
+R0
+w1541383981
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard_model.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard_model.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard_model.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/ps2_keyboard_model.v|
+!i113 1
+R5
+R6
+R7
+vseven_num
+R1
+!i10b 1
+!s100 cY?I^D@TeHDjK[A^ek17L2
+ICYlA0HDDARP>H6Ke2bJN<2
+R2
+R0
+w1541249268
+8D:/NJU/3rd semester/digital logical circuit experiments/lab08/seven_num.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab08/seven_num.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab08/seven_num.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab08|D:/NJU/3rd semester/digital logical circuit experiments/lab08/seven_num.v|
+!i113 1
+R5
+R6
+R7

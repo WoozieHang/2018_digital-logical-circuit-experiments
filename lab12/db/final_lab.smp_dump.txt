@@ -1,0 +1,19 @@
+
+State Machine - |final_lab|keyboard:mykb|state
+Name state.S0 state.S2 state.S1 
+state.S0 0 0 0 
+state.S1 1 0 1 
+state.S2 1 1 0 
+
+State Machine - |final_lab|get_music:get_m|record_state
+Name record_state.0000 record_state.0010 record_state.0001 
+record_state.0000 0 0 0 
+record_state.0001 1 0 1 
+record_state.0010 1 1 0 
+
+State Machine - |final_lab|I2C_Audio_Config:myconfig|mi2c_state
+Name mi2c_state.11 mi2c_state.10 mi2c_state.01 mi2c_state.00 
+mi2c_state.00 0 0 0 0 
+mi2c_state.01 0 0 1 1 
+mi2c_state.10 0 1 0 1 
+mi2c_state.11 1 0 0 1 

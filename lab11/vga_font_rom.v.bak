@@ -1,0 +1,14 @@
+module vga_font_rom(inaddr,dout);
+//256*16*12，a unit is 12, 4096 's units
+input [11:0] inaddr;
+output[11:0] dout;
+reg [11:0] rom [4095:0];
+
+initial
+begin
+$readmemh("D:/digital_logic/vga_font.txt", rom, 0, 4095);
+end
+
+assign dout= rom[inaddr];
+
+endmodule

@@ -1,0 +1,44 @@
+module lab03(a,b,choice,result,CF,OF);
+input [3:0]a;
+input [3:0]b;
+input [2:0]choice;
+output reg[3:0]result;
+output  reg CF;
+output reg OF;
+
+always@(a or b or choice)
+case(choice)
+2'b000:
+begin 
+{CF,result}=a+b;OF=(a[3]==b[3])&&(result[3]!=a[3]);
+end
+2'b001:
+ begin 
+ {CF,result}=a+~b+1;OF=(a[3]!=b[3])&&(a[3]!=result[3]);
+ end
+2'b010:	
+begin result=~a;OF=0;CF=0;
+end
+2'b011:	
+begin 
+result=a&b;OF=0;CF=0;
+end
+2'b100:  
+ begin 
+ result=a|b;OF=0;CF=0;
+ end 
+2'b101: 
+begin 
+result=a^b;OF=0;CF=0;
+end
+2'b110:
+begin 
+if(a>b) result=1;else result=0;
+end 
+2'b111:
+begin 
+if(a==b) result=1;else result=0;
+end
+endcase
+
+endmodule

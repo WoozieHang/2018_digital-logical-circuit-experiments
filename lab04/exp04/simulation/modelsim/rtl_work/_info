@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim
+vexp04
+Z1 !s110 1539004478
+!i10b 1
+!s100 V9QoLi7L07f@gWE;0Bo]_0
+Ie47VlFmHSfKKmai[VYPXm2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1538967802
+8D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/exp04.v
+FD:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/exp04.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1539004478.000000
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/exp04.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04|D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/exp04.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04}
+Z6 tCvgOpt 0
+vexp04_vlg_tst
+R1
+!i10b 1
+!s100 S[>E]o8D4k9h;<:6PUmg21
+IXaQP`2k]L4SZ42jAY0Y6Y1
+R2
+R0
+w1539004470
+8D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim/exp04.vt
+FD:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim/exp04.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim/exp04.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim|D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim/exp04.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/NJU/3rd semester/digital logical circuit experiments/lab04/exp04/simulation/modelsim}
+R6

@@ -1,0 +1,22 @@
+module exp04(output reg a,input b,output reg c,input d,input clk,input reset,input set)
+always@(posedge clk or ngedge reset or negedge set)//y
+begin
+if(!reset)
+a<=0;
+else if(!set)
+a<=1;
+else
+a<=b;
+end
+
+always@(posedge clk )//t
+begin
+if(!reset)
+c<=0;
+else if(!set)
+c<=1;
+else
+c<=d;
+end
+
+endmodule

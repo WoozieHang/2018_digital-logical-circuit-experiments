@@ -1,0 +1,33 @@
+module lab09(
+input clk, //时钟
+input reset, //置位
+input [11:0] vga_data, // 上 层 模 块 提 供 的 VGA颜色数据
+output hsync;
+output vsync;
+output sync_n;
+output blank_n;
+output [3:0] vga_r, // 红 绿 蓝 颜 色 信 号
+output [3:0] vga_g,
+output [3:0] vga_b
+);
+wire vga_clk;
+wire [9:0]h_addr;
+wire [9:0]v_addr;
+clkgen #(25000000) my_vgaclk(clk,reset,1'b1,vga_clk);
+
+vga_ctrl VGA_CTRL(
+.plck(vga_clk),
+.reset(reset),
+.vga_data(),
+.h_addr(h_addr),
+.v_addr(v_addr),
+.hsync(hsync),
+.vsync(vsync),
+.valid(blank_n),
+.vga_r(vga_r),
+.vgd_g(vga_g),
+.vga_b(vga_b)
+);
+
+assign sync_n=0;
+

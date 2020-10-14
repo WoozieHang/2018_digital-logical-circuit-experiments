@@ -1,0 +1,25 @@
+module screen_ram(clk, we, row_addr, col_addr,din, dout);
+input clk;
+input we;
+//we need a array of 32*128==2^12,32*70==2240 which is easy to compute 
+input [4:0] row_addr;
+input [6:0] col_addr;
+input [7:0] din;
+output[7:0] dout;
+reg [7:0] ram [2239:0];
+reg [7:0]dout;
+
+initial
+begin
+$readmemh("D:/digital_logic/mem2.txt", ram, 0, 2239);
+end
+
+always @(posedge clk)
+begin
+if (we)
+
+ram[(col_addr<<5)|rowaddr] <= din;
+else
+dout<= ram[(col_addr<<5)|rowaddr];
+end
+endmodule

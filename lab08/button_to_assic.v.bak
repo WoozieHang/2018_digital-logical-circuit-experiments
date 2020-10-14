@@ -1,0 +1,76 @@
+module button_to_assic(clk,buttonword,assic);
+input clk;
+input [7:0]buttonword;
+output [7:0]assic;
+
+always@(posedge clk)
+begin
+case(buttonword)
+2'h0D: assic<=2'h20;
+2'h0E: assic<=2'h60;
+2'h15: assic<=2'h71;
+2'h16: assic<=2'h31;
+2'h1A: assic<=2'h7A;
+2'h1B: assic<=2'h73;
+2'h1C: assic<=2'h61;
+2'h1D: assic<=2'h77;
+2'h1E: assic<=2'h32;
+2'h21: assic<=2'h63;
+2'h22: assic<=2'h78;
+2'h23: assic<=2'h64;
+2'h24: assic<=2'h65;
+2'h25: assic<=2'h34;
+2'h26: assic<=2'h33;
+2'h29: assic<=2'h20;
+2'h2A: assic<=2'h76;
+2'h2B: assic<=2'h66;
+2'h2C: assic<=2'h74;
+2'h2D: assic<=2'h72;
+2'h2E: assic<=2'h35;
+2'h31: assic<=2'h6E;
+2'h32: assic<=2'h62;
+2'h33: assic<=2'h68;
+2'h34: assic<=2'h67;
+2'h35: assic<=2'h79;
+2'h36: assic<=2'h36;
+2'h3A: assic<=2'h6D;
+2'h3B: assic<=2'h6A;
+2'h3C: assic<=2'h75;
+2'h3D: assic<=2'h37;
+2'h3E: assic<=2'h38;
+2'h41: assic<=2'h2C;
+2'h42: assic<=2'h6B;
+2'h43: assic<=2'h69;
+2'h44: assic<=2'h6F;
+2'h45: assic<=2'h30;
+2'h46: assic<=2'h39;
+2'h49: assic<=2'h2E;
+2'h4A: assic<=2'h2F;
+2'h4B: assic<=2'h6C;
+2'h4C: assic<=2'h3A;
+2'h4D: assic<=2'h71;
+2'h4E: assic<=2'h2D;
+2'h52: assic<=2'h27;
+2'h54: assic<=2'h5B;
+2'h55: assic<=2'h3D;
+2'h5B: assic<=2'h5D;
+2'h5D: assic<=2'h5C;
+2'h66: assic<=2'h08;
+2'h69: assic<=2'h31;
+2'h6B: assic<=2'h34;
+2'h6C: assic<=2'h37;
+2'h70: assic<=2'h30;
+2'h71: assic<=2'h2E;
+2'h72: assic<=2'h32;
+2'h73: assic<=2'h35;
+2'h74: assic<=2'h36;
+2'h75: assic<=2'h38;
+2'h79: assic<=2'h2B;
+2'h7A: assic<=2'h33;
+2'h7B: assic<=2'h2C;
+2'h7C: assic<=2'h2A;
+2'h7D: assic<=2'h39;
+default: assic<=2'h00;
+endcase
+end
+endmodule

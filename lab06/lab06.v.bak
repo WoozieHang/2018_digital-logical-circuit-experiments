@@ -1,0 +1,98 @@
+module lab06(control,out_light,set,clk,put_in);
+input [3:0]control;
+output reg [7:0]out_light;
+input [7:0]set;
+input clk;
+input put_in;
+
+always@(posedge clk)
+if(control==0）
+out_light<=0;
+else if(control==1)
+out_light<=set;
+else if(control==2)
+begin
+out_light[0]<=out_light[1];
+out_light[1]<=out_light[2];
+out_light[2]<=out_light[3];
+out_light[3]<=out_light[4];
+out_light[4]<=out_light[5];
+out_light[5]<=out_light[6];
+out_light[6]<=out_light[7];
+out_light[7]<=0;
+end
+else if(control==3)
+begin
+out_light[7]<=out_light[6];
+out_light[6]<=out_light[5];
+out_light[5]<=out_light[4];
+out_light[4]<=out_light[3];
+out_light[3]<=out_light[2];
+out_light[2]<=out_light[1];
+out_light[1]<=out_light[0];
+out_light[0]<=0;
+end
+
+else if(control==4)
+begin
+out_light[0]<=out_light[1];
+out_light[1]<=out_light[2];
+out_light[2]<=out_light[3];
+out_light[3]<=out_light[4];
+out_light[4]<=out_light[5];
+out_light[5]<=out_light[6];
+out_light[6]<=out_light[7];
+out_light[7]<=out_light[7];
+end
+
+else if(control==5)
+begin
+out_light[0]<=out_light[1];
+out_light[1]<=out_light[2];
+out_light[2]<=out_light[3];
+out_light[3]<=out_light[4];
+out_light[4]<=out_light[5];
+out_light[5]<=out_light[6];
+out_light[6]<=out_light[7];
+out_light[7]<=put_in;
+end
+
+else if(control==6)
+begin
+help=out_light[0];
+out_light[0]<=out_light[1];
+out_light[1]<=out_light[2];
+out_light[2]<=out_light[3];
+out_light[3]<=out_light[4];
+out_light[4]<=out_light[5];
+out_light[5]<=out_light[6];
+out_light[6]<=out_light[7];
+out_light[7]<=out_light[0];
+end
+
+else if(control==7)
+begin
+help=out_light[7];
+out_light[7]<=out_light[6];
+out_light[6]<=out_light[5];
+out_light[5]<=out_light[4];
+out_light[4]<=out_light[3];
+out_light[3]<=out_light[2];
+out_light[2]<=out_light[1];
+out_light[1]<=out_light[0];
+out_light[0]<=out_light[7];
+end
+
+else 
+begin
+out_light[7]<=out_light[0];
+out_light[6]<=out_light[7];
+out_light[5]<=out_light[6];
+out_light[4]<=out_light[5];
+out_light[3]<=out_light[4]^out_light[0];
+out_light[2]<=out_light[3]^out_light[0];
+out_light[1]<=out_light[2]^out_light[0];
+out_light[0]<=out_light[1];
+end
+endmodule
+
